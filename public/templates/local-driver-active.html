@@ -46,6 +46,12 @@
 
     
 
+    <nav class="header-nav ms-auto">
+      <ul class="d-flex align-items-center">
+
+        
+
+
         <li class="nav-item dropdown pe-3">
 
           <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
@@ -84,7 +90,7 @@
             </li>
 
             <li>
-              <a class="dropdown-item d-flex align-items-center" href="sign-out.html">
+              <a class="dropdown-item d-flex align-items-center" href="sign_out.html">
                 <i class="bi bi-box-arrow-right"></i>
                 <span>Sign Out</span>
               </a>
@@ -240,29 +246,72 @@
           
   
         </div>
-      </section>
-    
-      <section class="section dashboard">
-        
-        <div class="row">
-            <div class="col-12">
-                <div class="container py-3">
-                    <div class="container">
-                        <div id="driver-info">
-                            <h2 id="passenger-name"></h2>
-                            <p id="passenger-phone"></p>
-                            <p id="passenger-location"></p>
-                            <p id="passenger-destination"></p>
-                            <div id="map" style="height: 400px;"></div>
-                            <button id="arrived-pickup" class="btn btn-primary mt-3">Arrived at Pickup</button>
-                            <button id="arrived-destination" class="btn btn-success mt-3 d-none">Arrived at Destination</button>
-                            <button id="go-back" class="btn btn-warning mt-3">Go Back</button>
-                        </div>
-                    </div>
-                </div>
+
+
+        <div class="row"> <!-- queue row-->
+          <!-- Driver Queue -->
+          <div class="col-12">
+            <div class="card recent-sales overflow-auto">
+
+              <div class="card-body">
+                <h5 class="card-title">Queue</h5>
+
+                <table class="table table-borderless datatable">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Passenger</th>
+                      <th scope="col">Pickup</th>
+                      <th scope="col">Destination</th>
+                      <th scope="col">Status</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row"><a href="#">#2457</a></th>
+                      <td>Brandon Jacob</td>
+                      <td><a href="#" class="text-primary">The Hub</a></td>
+                      <td>$64</td>
+                      <td><span class="badge bg-success">Completed</span></td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><a href="#">#2147</a></th>
+                      <td>Bridie Kessler</td>
+                      <td><a href="#" class="text-primary">The Retreat</a></td>
+                      <td>$47</td>
+                      <td><span class="badge bg-warning">Awaiting pickup</span></td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><a href="#">#2049</a></th>
+                      <td>Ashleigh Langosh</td>
+                      <td><a href="#" class="text-primary">Oak House</a></td>
+                      <td>$147</td>
+                      <td><span class="badge bg-success">Completed</span></td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><a href="#">#2644</a></th>
+                      <td>Angus Grady</td>
+                      <td><a href="#" class="text-primar">Maple Ridge</a></td>
+                      <td>$67</td>
+                      <td><span class="badge bg-danger">Canceled</span></td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><a href="#">#2644</a></th>
+                      <td>Raheem Lehner</td>
+                      <td><a href="#" class="text-primary">Terrace View</a></td>
+                      <td>$165</td>
+                      <td><span class="badge bg-success">Completed</span></td>
+                    </tr>
+                  </tbody>
+                </table>
+
+              </div>
+
             </div>
-        </div>
-    </section>
+          </div><!-- End Recent Trips -->
+        </div> <!-- End Queue Row-->
+
+      </section>
   </main>
   
 
