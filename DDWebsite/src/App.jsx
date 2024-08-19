@@ -6,12 +6,13 @@ import {Routes, Route} from 'react-router-dom'
 import  Main  from './components/Main'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <Routes>
-      <Route index element = {<Main />}/>
+          <Route index element = {<Main />}/>
+          <Route path = '/' element = {<Main />} />
+
       </Routes>
     </>
   )
