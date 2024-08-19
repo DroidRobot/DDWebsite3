@@ -127,16 +127,16 @@
       <li class="nav-item">
         <a class="nav-link " href="local-driver-active.html">
           <i class=" ri-car-fill"></i>
-          <span>Driving Menu</span>
+          <span>Driver Dashboard</span>
         </a>
-      </li><!-- End Driving Menu Nav -->
+      </li><!-- End Driver Dashboard Nav -->
 
       <li class="nav-item">
         <a class="nav-link collapsed" href="local-user.html">
-          <i class=" ri-bus-fill"></i> <span>Drivers</span>
+          <i class=" ri-bus-fill"></i> <span>Rider Dashboard</span>
         </a>
       </li>
-      <!-- End Driving Menu Nav -->
+      <!-- End Driver Dashboard Nav -->
 
       <li class="nav-heading">Pages</li>
 
@@ -167,11 +167,11 @@
 
   <main id="main" class="main">
     <div class="pagetitle">
-        <h1>Driving Menu</h1>
+        <h1>Driver Dashboard</h1>
         <nav>
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="driver-main-dashboard.html">Home</a></li>
-            <li class="breadcrumb-item active">Driving Menu</li>
+            <li class="breadcrumb-item active">Driver Dashboard</li>
           </ol>
         </nav>
       </div><!-- End Page Title -->
@@ -180,55 +180,43 @@
 
         <div class="row"><!--Start Row-->
 
-            <!-- Passenger info Card-->
-            <div class="card">
-                <div class="card-body">
-
-                  <div class="d-flex align-items-center">
-                    <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                      <i class="bi bi-cart"></i>
-                    </div>
-                    <div class="ps-3">
-                      <div id="driver-info">
-                        <h2 class="card-title" id="passenger-name"></h2>
-                          <p id="passenger-phone"></p>
-                          <p id="passenger-location"></p>
-                          <p id="passenger-destination"></p>
-                      </div>
-                    </div>
-                  </div>
-                  
-                </div>
-              </div>
-            </div><!-- End Passenger info card -->
-
-            <div class="card">
-              <div class="card-body">
-                  <h5 class="card-title">Get Directions to Our Location</h5>
-                  <div class="map-buttons">
-                      <button id="waze-button" class="btn btn-primary">Open in Waze</button>
-                      <button id="google-maps-button" class="btn btn-success">Open in Google Maps</button>
-                      <button id="apple-maps-button" class="btn btn-info">Open in Apple Maps</button>
-                  </div>
-              </div>
-          </div>
-            
-        </div> <!--End Row-->
-
-
-        <div class="row"><!--Start Row-->
-
             <!-- Map-->
             <div class="card">
                 <div class="card-body">
                     <div id="driver-info">
-                      <div id="map" style="height: 400px;"></div>
+                      <div class="row">
+                        <div class="d-flex align-items-center">
+                          <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                            <i class="bi bi-cart"></i>
+                          </div>
+                          <div class="ps-3">
+                            <div id="driver-info">
+                              <h2 class="card-title" id="passenger-name"></h2>
+                                <p id="passenger-phone"></p>
+                                <p id="passenger-location"></p>
+                                <p id="passenger-destination"></p>
+                                
+                            </div>
+                          </div>
+                          
+                        </div>
+                      </div>
+                      <div class="map-buttons">
+                        <button id="waze-button" class="btn btn-primary">Open in Waze</button>
+                        <button id="google-maps-button" class="btn btn-success">Open in Google Maps</button>
+                        <button id="apple-maps-button" class="btn btn-info">Open in Apple Maps</button>
+                    </div>
+                      <div class="row">
+                        <div id="map" style="height: 400px;"></div>
                       <div class="arrived-back-button-container">
                         <button id="arrived-pickup" class="btn btn-primary mt-3">Arrived at Pickup</button>
                         <button id="arrived-destination" class="btn btn-success mt-3 d-none">Arrived at Destination</button>
                         <button id="go-back" class="btn btn-warning mt-3">Previous</button>
                         <button id="back-to-dashboard"class="btn btn-danger mt-3 d-none" a >Go Back</button>
                       </div>
+                      </div>
+
+                      
                     </div>
                 </div>
             </div><!-- End Map -->
