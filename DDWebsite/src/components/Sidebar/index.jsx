@@ -6,12 +6,12 @@ const Sidebar = () => {
             <ul className = "sideBar">
                 <li class="nav-item">
                     <a className="nav-link " href="https://youtube.com">
-                    <span>Drivers</span>
+                    <span>Drivers Dashboard</span>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a className="nav-link " href="https://youtube.com">
-                    <span>Passengers</span>
+                    <span>Passengers Dashboard</span>
                     </a>
                 </li><li class="nav-item">
                     <a className="nav-link " href="https://youtube.com">
