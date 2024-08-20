@@ -8,12 +8,6 @@ const Driver = () => {
                 <main id="main" className="main">
                     <div className="pagetitle">
                         <h1>Driver Dashboard</h1>
-                        <nav>
-                        <ol className="breadcrumb">
-                            <li className="breadcrumb-item"><a href="driver-main-dashboard.html">Home</a></li>
-                            <li className="breadcrumb-item active">Driver Dashboard</li>
-                        </ol>
-                        </nav>
                     </div>{/*  End Page Title */}
 
                     <section className="section dashboard">
@@ -38,36 +32,36 @@ const Driver = () => {
                                 </thead>
                                 <tbody>
                                     <tr>
-                                    <th scope="row"><a href="#">#2457</a></th>
-                                    <td>Brandon Jacob</td>
+                                    <th scope="row"><a href="#">#1</a></th>
+                                    <td>Playboi Carti</td>
                                     <td><a href="#" className="text-primary">The Hub</a></td>
                                     <td>$64</td>
                                     <td><span className="badge bg-success">Completed</span></td>
                                     </tr>
                                     <tr>
-                                    <th scope="row"><a href="#">#2147</a></th>
-                                    <td>Bridie Kessler</td>
+                                    <th scope="row"><a href="#">#2</a></th>
+                                    <td>Fonz</td>
                                     <td><a href="#" className="text-primary">The Retreat</a></td>
                                     <td>$47</td>
                                     <td><span className="badge bg-warning">Awaiting pickup</span></td>
                                     </tr>
                                     <tr>
-                                    <th scope="row"><a href="#">#2049</a></th>
-                                    <td>Ashleigh Langosh</td>
+                                    <th scope="row"><a href="#">#3</a></th>
+                                    <td>No Neck Nick</td>
                                     <td><a href="#" className="text-primary">Oak House</a></td>
                                     <td>$147</td>
                                     <td><span className="badge bg-success">Completed</span></td>
                                     </tr>
                                     <tr>
-                                    <th scope="row"><a href="#">#2644</a></th>
-                                    <td>Angus Grady</td>
+                                    <th scope="row"><a href="#">#4</a></th>
+                                    <td>Trent</td>
                                     <td><a href="#" className="text-primar">Maple Ridge</a></td>
                                     <td>$67</td>
                                     <td><span className="badge bg-danger">Canceled</span></td>
                                     </tr>
                                     <tr>
-                                    <th scope="row"><a href="#">#2644</a></th>
-                                    <td>Raheem Lehner</td>
+                                    <th scope="row"><a href="#">#5</a></th>
+                                    <td>Skibbidi Toilet</td>
                                     <td><a href="#" className="text-primary">Terrace View</a></td>
                                     <td>$165</td>
                                     <td><span className="badge bg-success">Completed</span></td>

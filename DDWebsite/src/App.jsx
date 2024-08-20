@@ -14,6 +14,9 @@ function App() {
     <>
       <Routes>
           <Route path = '/' element = {<Layout />} />
+          <Route path = '/driver' element = {<Driver />} />
+          <Route path = '/rider' element = {<Rider />} />
+
 
 
       </Routes>
