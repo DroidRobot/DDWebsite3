@@ -1,5 +1,6 @@
 import './index.css'
 import {NavLink} from 'react-router-dom'
+import Logo from "../../assets/img/alpha_sig_shield_logo.png"
 
 const LoginPage = () => {
     return (
@@ -15,7 +16,7 @@ const LoginPage = () => {
                     <div className="card">
                         <div className="card-body profile-card pt-4 d-flex flex-column align-items-center">
 
-                        <img src="img/logos/alpha_sig_shield_logo.png" alt="Profile" className="rounded-circle"/>
+                        <img src={Logo} alt="Profile" className="rounded-circle"/>
                         <h1 className="h3 mb-3 fw-normal">Please sign in</h1>
                         <form>
                             
