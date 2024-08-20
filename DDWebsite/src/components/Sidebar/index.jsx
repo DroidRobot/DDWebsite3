@@ -1,21 +1,17 @@
-import './index.css'
+//import './index.css'
 
 const Sidebar = () => {
     return (
         <div className = "navBar">
             <ul className = "sideBar">
-                <li class="nav-item">
-                    <a className="nav-link " href="https://youtube.com">
+                <li className="nav-item">
+                    <a className="nav-link "target = "_blank" href="https://youtube.com">
                     <span>Drivers Dashboard</span>
                     </a>
                 </li>
-                <li class="nav-item">
-                    <a className="nav-link " href="https://youtube.com">
+                <li className="nav-item">
+                    <a className="nav-link " target = "_blank" href = "https://youtube.com">
                     <span>Passengers Dashboard</span>
-                    </a>
-                </li><li class="nav-item">
-                    <a className="nav-link " href="https://youtube.com">
-                    <span>Drivers</span>
                     </a>
                 </li>
                 

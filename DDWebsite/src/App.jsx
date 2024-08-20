@@ -5,6 +5,8 @@ import './App.css'
 import {Routes, Route} from 'react-router-dom'
 import  Main  from './components/Main'
 import Layout from './components/Layout'
+import Driver from './components/Driver'
+import Rider from './components/Rider'
 
 function App() {
 
@@ -12,6 +14,7 @@ function App() {
     <>
       <Routes>
           <Route path = '/' element = {<Layout />} />
+
 
       </Routes>
     </>
