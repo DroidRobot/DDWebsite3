@@ -1,4 +1,4 @@
-//import './index.css'
+import './index.css'
 
 const Sidebar = () => {
     return (
@@ -17,6 +17,7 @@ const Sidebar = () => {
                 
             </ul>
         </div>
+        
     )
 }
 export default Sidebar;
