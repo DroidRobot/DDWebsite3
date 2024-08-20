@@ -12,9 +12,9 @@ const Layout = () => {
     return (
         <>
             <div className = "App">
-            
-                <LoginPage/>
                 {/*<Sidebar/>*/}
+                <LoginPage/>
+                
             </div>
         </>
     )
