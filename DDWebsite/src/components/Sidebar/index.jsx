@@ -1,4 +1,5 @@
 import './index.css'
+import DrivingDashboardButton from '../DrivingDashboardButton'
 
 const Sidebar = () => {
     return (
@@ -6,14 +7,12 @@ const Sidebar = () => {
             <ul className = "sideBar">
                 <li className="nav-item">
                     <a className="nav-link "target = "_blank" href="https://youtube.com">
-                    <span>Drivers Dashboard</span>
+                    <span>Rider Dashboard</span>
                     </a>
                 </li>
-                <li className="nav-item">
-                    <a className="nav-link " target = "_blank" href = "https://youtube.com">
-                    <span>Passengers Dashboard</span>
-                    </a>
-                </li>
+                
+                <DrivingDashboardButton/>
+
                 <li className="nav-heading">Pages</li>
 
                 <li className="nav-item">
