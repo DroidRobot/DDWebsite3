@@ -28,14 +28,6 @@ const Sidebar = () => {
                     <span>F.A.Q</span>
                 </a>
                 </li>
-                
-
-                <li className="nav-item">
-                <a className="nav-link collapsed" href="user-contact.html">
-                    <i className="bi bi-envelope"></i>
-                    <span>Contact</span>
-                </a>
-                </li>
             </ul>
         </div>
         
